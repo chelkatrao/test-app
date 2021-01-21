@@ -72,7 +72,7 @@ Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIj
 
 ############################################-AUTH-################################################
 ### API - AUTHENTICATION - API
-POST http://185.196.214.66:8081/auth/authentication
+POST http://localhost:8081/auth/authentication
 Content-Type: application/json
 
 {

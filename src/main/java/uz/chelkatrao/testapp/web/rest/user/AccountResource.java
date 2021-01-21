@@ -1,8 +1,8 @@
 package uz.chelkatrao.testapp.web.rest.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
-import org.thymeleaf.util.StringUtils;
 import uz.chelkatrao.testapp.domain.auth.User;
 import uz.chelkatrao.testapp.repository.auth.UserRepository;
 import uz.chelkatrao.testapp.security.SecurityUtils;
