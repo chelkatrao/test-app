@@ -1,0 +1,84 @@
+###
+POST http://localhost:8080/api/quiz/new
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQU5PTllNT1VTIn1dLCJpYXQiOjE2MTA4NDA5MDgsImV4cCI6MTYxMjAzMzIwMH0.P1In87AfJUZgflZGd8rqov1NzleCZ-SRGNKj9c-Wh5Y6Y9UALLVTOxVQuB9Qk5ss9Eh0E7kskiToy_e77myi7A
+
+{
+  "name": "quiz-math",
+  "description": "math quiz",
+  "projectId": 1
+}
+
+##########################################-PROJECT-################################################
+### API - GET PROJECT BY ID
+DELETE http://localhost:8080/api/project/1
+Accept: application/json
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQU5PTllNT1VTIn1dLCJpYXQiOjE2MTA4NDA5MDgsImV4cCI6MTYxMjAzMzIwMH0.P1In87AfJUZgflZGd8rqov1NzleCZ-SRGNKj9c-Wh5Y6Y9UALLVTOxVQuB9Qk5ss9Eh0E7kskiToy_e77myi7A
+
+### API - GET PROJECT BY ID
+GET http://localhost:8080/api/project/1
+Accept: application/json
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQU5PTllNT1VTIn1dLCJpYXQiOjE2MTA4NDA5MDgsImV4cCI6MTYxMjAzMzIwMH0.P1In87AfJUZgflZGd8rqov1NzleCZ-SRGNKj9c-Wh5Y6Y9UALLVTOxVQuB9Qk5ss9Eh0E7kskiToy_e77myi7A
+
+### API - UPDATE PROJECT
+PUT http://localhost:8080/api/project/2
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQU5PTllNT1VTIn1dLCJpYXQiOjE2MTA2NDQ4OTYsImV4cCI6MTYxMTc3NDAwMH0.loX1HQ7r77mxzxq89G0O9OgVaUiaWLeoDJXmHLQsEdJNVN8ht6UjzGEXMCHsHa-xntU0iOe0-Ofws6O8OpWuJw
+
+{
+  "name": "IVAT - 2021",
+  "description": "ivat 2020 talabalari uchun test"
+}
+
+### API - CREATE PROJECT
+POST http://localhost:8080/api/project/new
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQU5PTllNT1VTIn1dLCJpYXQiOjE2MTA2NDQ4OTYsImV4cCI6MTYxMTc3NDAwMH0.loX1HQ7r77mxzxq89G0O9OgVaUiaWLeoDJXmHLQsEdJNVN8ht6UjzGEXMCHsHa-xntU0iOe0-Ofws6O8OpWuJw
+
+{
+  "name": "IVAT - 2020",
+  "description": "ivat 2020 talabalari uchun test"
+}
+
+############################################-USER-################################################
+### API - UPDATE USER API
+PUT http://localhost:8080/api/users
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQU5PTllNT1VTIn1dLCJpYXQiOjE2MTA2NDQ4OTYsImV4cCI6MTYxMTc3NDAwMH0.loX1HQ7r77mxzxq89G0O9OgVaUiaWLeoDJXmHLQsEdJNVN8ht6UjzGEXMCHsHa-xntU0iOe0-Ofws6O8OpWuJw
+
+{
+  "id": 2,
+  "login": "ashraf",
+  "firstName": "AshrafBek",
+  "lastName": "Qayumovv",
+  "email": "a@gmail.com",
+  "imageUrl": "image",
+  "password": "ashraf"
+}
+
+### API - CREATE USER
+POST http://localhost:8080/api/users
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGhvcml0aWVzIjpbeyJhdXRob3JpdHkiOiJST0xFX1VTRVIifSx7ImF1dGhvcml0eSI6IlJPTEVfQURNSU4ifSx7ImF1dGhvcml0eSI6IlJPTEVfQU5PTllNT1VTIn1dLCJpYXQiOjE2MTA2NDQ4OTYsImV4cCI6MTYxMTc3NDAwMH0.loX1HQ7r77mxzxq89G0O9OgVaUiaWLeoDJXmHLQsEdJNVN8ht6UjzGEXMCHsHa-xntU0iOe0-Ofws6O8OpWuJw
+
+{
+  "login": "ashraf",
+  "firstName": "Ashraf",
+  "lastName": "Qayumov",
+  "email": "a@gmail.com",
+  "imageUrl": "image",
+  "password": "ashraf"
+}
+
+############################################-AUTH-################################################
+### API - AUTHENTICATION - API
+POST http://185.196.214.66:8081/auth/authentication
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "admin"
+}
+
+###
+############################################-AUTH-################################################
